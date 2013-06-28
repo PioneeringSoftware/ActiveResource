@@ -7,109 +7,104 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		78054AF914692ABC007E947E /* ActiveResourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7846AA3B140BAAE100FE58E5 /* ActiveResourceTests.m */; };
-		78054AFD14694531007E947E /* VersioningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78054AFC14694531007E947E /* VersioningTests.m */; };
-		780C11FD14F06D1C007960CF /* NSManagedObject+ActiveResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 780C11FB14F06D1C007960CF /* NSManagedObject+ActiveResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		780C11FF14F06D1C007960CF /* NSManagedObject+ActiveResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 780C11FC14F06D1C007960CF /* NSManagedObject+ActiveResource.m */; };
-		780D959D14E1264F005689CA /* ARQueuedLoadingURLConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 780D959B14E1264F005689CA /* ARQueuedLoadingURLConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		780D959F14E1264F005689CA /* ARQueuedLoadingURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 780D959C14E1264F005689CA /* ARQueuedLoadingURLConnection.m */; };
-		780D95A714E12D74005689CA /* ARSynchronousLoadingURLConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 780D95A514E12D74005689CA /* ARSynchronousLoadingURLConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		780D95A914E12D74005689CA /* ARSynchronousLoadingURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 780D95A614E12D74005689CA /* ARSynchronousLoadingURLConnection.m */; };
-		780D95AD14E173B5005689CA /* BaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 780D95AC14E173B5005689CA /* BaseTests.m */; };
-		780D95B114E1D178005689CA /* ARURLConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 780D95AF14E1D178005689CA /* ARURLConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		780D95B314E1D178005689CA /* ARURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 780D95B014E1D178005689CA /* ARURLConnection.m */; };
-		78245ACB177D95F1008C8855 /* ActiveModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78245AC6177D9556008C8855 /* ActiveModel.framework */; };
-		78245ACC177D9615008C8855 /* ActiveResource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7846AA14140BAAE100FE58E5 /* ActiveResource.framework */; };
-		78282278146869A3005D9BD2 /* FinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78282273146867F5005D9BD2 /* FinderTests.m */; };
-		7828228014686A2E005D9BD2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 7828227F14686A2E005D9BD2 /* Person.m */; };
-		7828228414686DFD005D9BD2 /* ARTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7828228314686DFD005D9BD2 /* ARTestCase.m */; };
-		7832702F14110B7B00ECCE7D /* ARFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 7832702E14110B7B00ECCE7D /* ARFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7832703214110BAE00ECCE7D /* ARJSONFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 7832703014110BAE00ECCE7D /* ARJSONFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7832703314110BAE00ECCE7D /* ARJSONFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 7832703114110BAE00ECCE7D /* ARJSONFormat.m */; };
-		7834B5DD14D167C90062BB04 /* ARIncrementalStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 7834B5DB14D167C90062BB04 /* ARIncrementalStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7834B5DF14D167C90062BB04 /* ARIncrementalStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7834B5DC14D167C90062BB04 /* ARIncrementalStore.m */; };
-		7835BC8F1414C47900CC4B56 /* Versioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 7835BC8D1414C47900CC4B56 /* Versioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7835BC901414C47900CC4B56 /* Versioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 7835BC8E1414C47900CC4B56 /* Versioning.m */; };
-		78404E6814F17FB1005986CB /* NSEntityDescription+ActiveResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 78404E6614F17FB1005986CB /* NSEntityDescription+ActiveResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78404E6A14F17FB1005986CB /* NSEntityDescription+ActiveResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 78404E6714F17FB1005986CB /* NSEntityDescription+ActiveResource.m */; };
-		78444FFD142896330014B4C6 /* ARFormatMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 78444FFB142896330014B4C6 /* ARFormatMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78444FFF142896330014B4C6 /* ARFormatMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 78444FFC142896330014B4C6 /* ARFormatMethods.m */; };
-		784450091428CE250014B4C6 /* ARResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 784450071428CE250014B4C6 /* ARResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7844500B1428CE250014B4C6 /* ARResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 784450081428CE250014B4C6 /* ARResource.m */; };
-		784450151428EFCB0014B4C6 /* ARService+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 784450131428EFCB0014B4C6 /* ARService+Private.h */; };
-		784450171428EFCB0014B4C6 /* ARService+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 784450141428EFCB0014B4C6 /* ARService+Private.m */; };
-		7846AA22140BAAE100FE58E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7846AA20140BAAE100FE58E5 /* InfoPlist.strings */; };
-		7846AA38140BAAE100FE58E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7846AA36140BAAE100FE58E5 /* InfoPlist.strings */; };
-		7846AA3A140BAAE100FE58E5 /* ActiveResourceTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 7846AA39140BAAE100FE58E5 /* ActiveResourceTests.h */; };
-		784BA1A0152C8E1800D4DD97 /* ActiveResourceTests.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 784BA19E152C8E1800D4DD97 /* ActiveResourceTests.xcdatamodeld */; };
-		784BA1A2152C978600D4DD97 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7879809A14D1704900825C1E /* CoreData.framework */; };
-		7851F5E9174B837A000EE84D /* KeyValueObservingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7851F5E8174B837A000EE84D /* KeyValueObservingTests.m */; };
-		7865AE67152C4738008F96CC /* IncrementalStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7865AE66152C4738008F96CC /* IncrementalStoreTests.m */; };
-		786D637214DC391100FCEFA7 /* KeyValueCodingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 786D636714DC1C8D00FCEFA7 /* KeyValueCodingTests.m */; };
-		786D637514DC568900FCEFA7 /* ARURLConnectionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 786D637314DC568900FCEFA7 /* ARURLConnectionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		786D637714DC568900FCEFA7 /* ARURLConnectionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 786D637414DC568900FCEFA7 /* ARURLConnectionDelegate.m */; };
-		7870471A14EFA2BC00510373 /* NSPersistentStore+ActiveResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 7870471814EFA2BC00510373 /* NSPersistentStore+ActiveResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7870471C14EFA2BC00510373 /* NSPersistentStore+ActiveResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7870471914EFA2BC00510373 /* NSPersistentStore+ActiveResource.m */; };
-		7870D53A14CDFED800934195 /* ARMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 7870D53814CDFED800934195 /* ARMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7879809B14D1704900825C1E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7879809A14D1704900825C1E /* CoreData.framework */; };
-		7885072F177DB032004160B2 /* ActiveSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7885072E177DB032004160B2 /* ActiveSupport.framework */; };
-		788A85471750D8010096D8DF /* EncodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 788A85461750D8010096D8DF /* EncodeTests.m */; };
-		78AC69E417424480004195E0 /* DynamicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AC69E317424480004195E0 /* DynamicTests.m */; };
-		78B58E9C1526082100956BB9 /* NSHTTPURLResponse+ActiveResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 78B58E9A1526082100956BB9 /* NSHTTPURLResponse+ActiveResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78B58E9E1526082100956BB9 /* NSHTTPURLResponse+ActiveResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B58E9B1526082100956BB9 /* NSHTTPURLResponse+ActiveResource.m */; };
-		78B95F8214CC6B6D00EEF206 /* ARHTTPMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 78B95F8014CC6B6D00EEF206 /* ARHTTPMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78B95F8414CC6B6D00EEF206 /* ARHTTPMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B95F8114CC6B6D00EEF206 /* ARHTTPMethods.m */; };
-		78BF7F5A14164E3500DB0DEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7846AA1C140BAAE100FE58E5 /* Foundation.framework */; };
-		78BF7F7214164FE100DB0DEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7846AA1C140BAAE100FE58E5 /* Foundation.framework */; };
-		78BF7F731416512200DB0DEA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7846AA2D140BAAE100FE58E5 /* SenTestingKit.framework */; };
-		78D3D6F3140BC3B800DD4278 /* ARService.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D3D6F1140BC3B800DD4278 /* ARService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78D3D6F4140BC3B800DD4278 /* ARService.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D3D6F2140BC3B800DD4278 /* ARService.m */; };
-		78D3D6FB140BC5A100DD4278 /* ActiveResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D3D6FA140BC5A100DD4278 /* ActiveResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78D9884114E9378E0081C350 /* ARHTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D9883F14E9378E0081C350 /* ARHTTPResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78D9884314E9378E0081C350 /* ARHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D9884014E9378E0081C350 /* ARHTTPResponse.m */; };
-		78E02B10152AE884008E6EC1 /* ARIncrementalStore+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 78E02B0E152AE884008E6EC1 /* ARIncrementalStore+Private.h */; };
-		78E02B12152AE884008E6EC1 /* ARIncrementalStore+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E02B0F152AE884008E6EC1 /* ARIncrementalStore+Private.m */; };
-		78E02B16152B06FC008E6EC1 /* NSAttributeDescription+ActiveResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 78E02B14152B06FC008E6EC1 /* NSAttributeDescription+ActiveResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78E02B18152B06FC008E6EC1 /* NSAttributeDescription+ActiveResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E02B15152B06FC008E6EC1 /* NSAttributeDescription+ActiveResource.m */; };
-		78E4DFEB145B1BF700AB4BCB /* ARResource+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 78E4DFE9145B1BF700AB4BCB /* ARResource+Private.h */; settings = {ATTRIBUTES = (); }; };
-		78E4DFED145B1BF700AB4BCB /* ARResource+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E4DFEA145B1BF700AB4BCB /* ARResource+Private.m */; };
-		78EEA80114CB7CEC0049AE28 /* ARConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 78EEA7FF14CB7CEC0049AE28 /* ARConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78EEA80314CB7CEC0049AE28 /* ARConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EEA80014CB7CEC0049AE28 /* ARConnection.m */; };
-		78F7972514CC3D01007A1262 /* ConnectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F7972414CC3D01007A1262 /* ConnectionTests.m */; };
-		78F7972F14CC48E8007A1262 /* ARConnection+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F7972D14CC48E8007A1262 /* ARConnection+Private.h */; settings = {ATTRIBUTES = (); }; };
-		78F7973114CC48E8007A1262 /* ARConnection+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F7972E14CC48E8007A1262 /* ARConnection+Private.m */; };
-		78FB0D86141A1820007AFB3D /* ARErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 78FB0D84141A1820007AFB3D /* ARErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78FB0D88141A1820007AFB3D /* ARErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FB0D85141A1820007AFB3D /* ARErrors.m */; };
+		78054AFA14692ABD007E947E /* ActiveResourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7846AA3B140BAAE100FE58E5 /* ActiveResourceTests.m */; };
+		78054AFE14694531007E947E /* VersioningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78054AFC14694531007E947E /* VersioningTests.m */; };
+		780C11FE14F06D1C007960CF /* NSManagedObject+ActiveResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 780C11FB14F06D1C007960CF /* NSManagedObject+ActiveResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780C120014F06D1C007960CF /* NSManagedObject+ActiveResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 780C11FC14F06D1C007960CF /* NSManagedObject+ActiveResource.m */; };
+		780D959E14E1264F005689CA /* ARQueuedLoadingURLConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 780D959B14E1264F005689CA /* ARQueuedLoadingURLConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780D95A014E1264F005689CA /* ARQueuedLoadingURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 780D959C14E1264F005689CA /* ARQueuedLoadingURLConnection.m */; };
+		780D95A814E12D74005689CA /* ARSynchronousLoadingURLConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 780D95A514E12D74005689CA /* ARSynchronousLoadingURLConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780D95AA14E12D74005689CA /* ARSynchronousLoadingURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 780D95A614E12D74005689CA /* ARSynchronousLoadingURLConnection.m */; };
+		780D95AE14E173B5005689CA /* BaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 780D95AC14E173B5005689CA /* BaseTests.m */; };
+		780D95B214E1D178005689CA /* ARURLConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 780D95AF14E1D178005689CA /* ARURLConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780D95B414E1D178005689CA /* ARURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 780D95B014E1D178005689CA /* ARURLConnection.m */; };
+		7813AA9B1419270400523ECD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7846AA1C140BAAE100FE58E5 /* Foundation.framework */; };
+		7813AAA81419270400523ECD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7846AA2D140BAAE100FE58E5 /* SenTestingKit.framework */; };
+		7813AAAB1419270400523ECD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7846AA1C140BAAE100FE58E5 /* Foundation.framework */; };
+		78282279146869A4005D9BD2 /* FinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78282273146867F5005D9BD2 /* FinderTests.m */; };
+		7828228114686A2E005D9BD2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 7828227F14686A2E005D9BD2 /* Person.m */; };
+		7828228514686DFD005D9BD2 /* ARTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7828228314686DFD005D9BD2 /* ARTestCase.m */; };
+		7834B5DE14D167C90062BB04 /* ARIncrementalStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 7834B5DB14D167C90062BB04 /* ARIncrementalStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7834B5E014D167C90062BB04 /* ARIncrementalStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7834B5DC14D167C90062BB04 /* ARIncrementalStore.m */; };
+		78404E6914F17FB1005986CB /* NSEntityDescription+ActiveResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 78404E6614F17FB1005986CB /* NSEntityDescription+ActiveResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78404E6B14F17FB1005986CB /* NSEntityDescription+ActiveResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 78404E6714F17FB1005986CB /* NSEntityDescription+ActiveResource.m */; };
+		78440D76141928B000EFBB93 /* ActiveResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D3D6FA140BC5A100DD4278 /* ActiveResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78440D77141928B000EFBB93 /* ARService.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D3D6F1140BC3B800DD4278 /* ARService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78440D78141928B000EFBB93 /* ARFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 7832702E14110B7B00ECCE7D /* ARFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78440D79141928B000EFBB93 /* ARJSONFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 7832703014110BAE00ECCE7D /* ARJSONFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78440D7A141928B000EFBB93 /* Versioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 7835BC8D1414C47900CC4B56 /* Versioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78440D7B141928D100EFBB93 /* ARService.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D3D6F2140BC3B800DD4278 /* ARService.m */; };
+		78440D7C141928D100EFBB93 /* ARJSONFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 7832703114110BAE00ECCE7D /* ARJSONFormat.m */; };
+		78440D7D141928D100EFBB93 /* Versioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 7835BC8E1414C47900CC4B56 /* Versioning.m */; };
+		78444FFE142896330014B4C6 /* ARFormatMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 78444FFB142896330014B4C6 /* ARFormatMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78445000142896330014B4C6 /* ARFormatMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 78444FFC142896330014B4C6 /* ARFormatMethods.m */; };
+		7844500A1428CE250014B4C6 /* ARResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 784450071428CE250014B4C6 /* ARResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7844500C1428CE250014B4C6 /* ARResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 784450081428CE250014B4C6 /* ARResource.m */; };
+		784450161428EFCB0014B4C6 /* ARService+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 784450131428EFCB0014B4C6 /* ARService+Private.h */; };
+		784450181428EFCB0014B4C6 /* ARService+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 784450141428EFCB0014B4C6 /* ARService+Private.m */; };
+		7851F5EA174B837A000EE84D /* KeyValueObservingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7851F5E8174B837A000EE84D /* KeyValueObservingTests.m */; };
+		7865AE68152C4738008F96CC /* IncrementalStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7865AE66152C4738008F96CC /* IncrementalStoreTests.m */; };
+		786D637114DC391000FCEFA7 /* KeyValueCodingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 786D636714DC1C8D00FCEFA7 /* KeyValueCodingTests.m */; };
+		786D637614DC568900FCEFA7 /* ARURLConnectionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 786D637314DC568900FCEFA7 /* ARURLConnectionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		786D637814DC568900FCEFA7 /* ARURLConnectionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 786D637414DC568900FCEFA7 /* ARURLConnectionDelegate.m */; };
+		7870471B14EFA2BC00510373 /* NSPersistentStore+ActiveResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 7870471814EFA2BC00510373 /* NSPersistentStore+ActiveResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7870471D14EFA2BC00510373 /* NSPersistentStore+ActiveResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7870471914EFA2BC00510373 /* NSPersistentStore+ActiveResource.m */; };
+		7870D53B14CDFED800934195 /* ARMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 7870D53814CDFED800934195 /* ARMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78805F1A1445ACB100703E80 /* libActiveResource.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7813AA9A1419270400523ECD /* libActiveResource.a */; };
+		7885073E177DB450004160B2 /* libActiveModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78850739177DB439004160B2 /* libActiveModel.a */; };
+		788A85481750D8010096D8DF /* EncodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 788A85461750D8010096D8DF /* EncodeTests.m */; };
+		78AC69E517424480004195E0 /* DynamicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AC69E317424480004195E0 /* DynamicTests.m */; };
+		78B58E9D1526082100956BB9 /* NSHTTPURLResponse+ActiveResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 78B58E9A1526082100956BB9 /* NSHTTPURLResponse+ActiveResource.h */; };
+		78B58E9F1526082100956BB9 /* NSHTTPURLResponse+ActiveResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B58E9B1526082100956BB9 /* NSHTTPURLResponse+ActiveResource.m */; };
+		78B95F8314CC6B6D00EEF206 /* ARHTTPMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 78B95F8014CC6B6D00EEF206 /* ARHTTPMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78B95F8514CC6B6D00EEF206 /* ARHTTPMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B95F8114CC6B6D00EEF206 /* ARHTTPMethods.m */; };
+		78D9884214E9378E0081C350 /* ARHTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D9883F14E9378E0081C350 /* ARHTTPResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78D9884414E9378E0081C350 /* ARHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D9884014E9378E0081C350 /* ARHTTPResponse.m */; };
+		78E02B11152AE884008E6EC1 /* ARIncrementalStore+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 78E02B0E152AE884008E6EC1 /* ARIncrementalStore+Private.h */; };
+		78E02B13152AE884008E6EC1 /* ARIncrementalStore+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E02B0F152AE884008E6EC1 /* ARIncrementalStore+Private.m */; };
+		78E02B17152B06FC008E6EC1 /* NSAttributeDescription+ActiveResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 78E02B14152B06FC008E6EC1 /* NSAttributeDescription+ActiveResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78E02B19152B06FC008E6EC1 /* NSAttributeDescription+ActiveResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E02B15152B06FC008E6EC1 /* NSAttributeDescription+ActiveResource.m */; };
+		78E4DFEC145B1BF700AB4BCB /* ARResource+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 78E4DFE9145B1BF700AB4BCB /* ARResource+Private.h */; settings = {ATTRIBUTES = (); }; };
+		78E4DFEE145B1BF700AB4BCB /* ARResource+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E4DFEA145B1BF700AB4BCB /* ARResource+Private.m */; };
+		78EEA80214CB7CEC0049AE28 /* ARConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 78EEA7FF14CB7CEC0049AE28 /* ARConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78EEA80414CB7CEC0049AE28 /* ARConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EEA80014CB7CEC0049AE28 /* ARConnection.m */; };
+		78F7972614CC3D01007A1262 /* ConnectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F7972414CC3D01007A1262 /* ConnectionTests.m */; };
+		78F7973014CC48E8007A1262 /* ARConnection+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F7972D14CC48E8007A1262 /* ARConnection+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78F7973214CC48E8007A1262 /* ARConnection+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F7972E14CC48E8007A1262 /* ARConnection+Private.m */; };
+		78F858B5177DB5A800766C29 /* ActiveResourceTests.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78F858B3177DB5A800766C29 /* ActiveResourceTests.xcdatamodeld */; };
+		78F858B7177DB63800766C29 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7879809A14D1704900825C1E /* CoreData.framework */; };
+		78FB0D87141A1820007AFB3D /* ARErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 78FB0D84141A1820007AFB3D /* ARErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78FB0D89141A1820007AFB3D /* ARErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FB0D85141A1820007AFB3D /* ARErrors.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		78245AC5177D9556008C8855 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78326FBB140FE38A00ECCE7D /* ActiveModelKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 78A36D94140D1EB000E48D11;
-			remoteInfo = ActiveModel;
-		};
-		78245AC7177D9556008C8855 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78326FBB140FE38A00ECCE7D /* ActiveModelKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 78A36DAC140D1EB100E48D11;
-			remoteInfo = ActiveModelTests;
-		};
-		78245AC9177D95E6008C8855 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78326FBB140FE38A00ECCE7D /* ActiveModelKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 78A36D93140D1EB000E48D11;
-			remoteInfo = ActiveModel;
-		};
-		78245ACD177D96C5008C8855 /* PBXContainerItemProxy */ = {
+		7813AAAC1419270400523ECD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7846AA0A140BAAE100FE58E5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7846AA13140BAAE100FE58E5;
-			remoteInfo = ActiveResource;
+			remoteGlobalIDString = 7813AA991419270400523ECD;
+			remoteInfo = ActiveResourceKitLibrary;
+		};
+		78850738177DB439004160B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78326FBB140FE38A00ECCE7D /* ActiveModelLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 78BF7F16141646A500DB0DEA;
+			remoteInfo = ActiveModel;
+		};
+		7885073A177DB439004160B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78326FBB140FE38A00ECCE7D /* ActiveModelLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 78BF7F24141646A500DB0DEA;
+			remoteInfo = ActiveModelTests;
+		};
+		7885073C177DB448004160B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78326FBB140FE38A00ECCE7D /* ActiveModelLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 78BF7F15141646A500DB0DEA;
+			remoteInfo = ActiveModel;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -127,13 +122,15 @@
 		780D95AC14E173B5005689CA /* BaseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTests.m; sourceTree = "<group>"; };
 		780D95AF14E1D178005689CA /* ARURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARURLConnection.h; sourceTree = "<group>"; };
 		780D95B014E1D178005689CA /* ARURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARURLConnection.m; sourceTree = "<group>"; };
+		7813AA9A1419270400523ECD /* libActiveResource.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libActiveResource.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7813AAA71419270400523ECD /* ActiveResourceTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActiveResourceTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78282272146867F5005D9BD2 /* FinderTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinderTests.h; sourceTree = "<group>"; };
 		78282273146867F5005D9BD2 /* FinderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinderTests.m; sourceTree = "<group>"; };
 		7828227E14686A2E005D9BD2 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		7828227F14686A2E005D9BD2 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		7828228214686DFD005D9BD2 /* ARTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARTestCase.h; sourceTree = "<group>"; };
 		7828228314686DFD005D9BD2 /* ARTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARTestCase.m; sourceTree = "<group>"; };
-		78326FBB140FE38A00ECCE7D /* ActiveModelKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ActiveModelKit.xcodeproj; path = ../ActiveModel/ActiveModelKit.xcodeproj; sourceTree = "<group>"; };
+		78326FBB140FE38A00ECCE7D /* ActiveModelLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ActiveModelLib.xcodeproj; path = ../ActiveModel/ActiveModelLib.xcodeproj; sourceTree = "<group>"; };
 		7832702E14110B7B00ECCE7D /* ARFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ARFormat.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		7832703014110BAE00ECCE7D /* ARJSONFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ARJSONFormat.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		7832703114110BAE00ECCE7D /* ARJSONFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ARJSONFormat.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
@@ -149,18 +146,15 @@
 		784450081428CE250014B4C6 /* ARResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARResource.m; sourceTree = "<group>"; };
 		784450131428EFCB0014B4C6 /* ARService+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ARService+Private.h"; sourceTree = "<group>"; };
 		784450141428EFCB0014B4C6 /* ARService+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "ARService+Private.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		7846AA14140BAAE100FE58E5 /* ActiveResource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ActiveResource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7846AA1C140BAAE100FE58E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7846AA1F140BAAE100FE58E5 /* ActiveResource-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ActiveResource-Info.plist"; sourceTree = "<group>"; };
 		7846AA21140BAAE100FE58E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7846AA23140BAAE100FE58E5 /* ActiveResource-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ActiveResource-Prefix.pch"; sourceTree = "<group>"; };
-		7846AA2C140BAAE100FE58E5 /* ActiveResourceTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActiveResourceTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7846AA2D140BAAE100FE58E5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		7846AA35140BAAE100FE58E5 /* ActiveResourceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ActiveResourceTests-Info.plist"; sourceTree = "<group>"; };
 		7846AA37140BAAE100FE58E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7846AA39140BAAE100FE58E5 /* ActiveResourceTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActiveResourceTests.h; sourceTree = "<group>"; };
 		7846AA3B140BAAE100FE58E5 /* ActiveResourceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActiveResourceTests.m; sourceTree = "<group>"; };
-		784BA19F152C8E1800D4DD97 /* ActiveResourceTests.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ActiveResourceTests.xcdatamodel; sourceTree = "<group>"; };
 		7851F5E7174B837A000EE84D /* KeyValueObservingTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyValueObservingTests.h; sourceTree = "<group>"; };
 		7851F5E8174B837A000EE84D /* KeyValueObservingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyValueObservingTests.m; sourceTree = "<group>"; };
 		7865AE65152C4738008F96CC /* IncrementalStoreTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IncrementalStoreTests.h; sourceTree = "<group>"; };
@@ -173,7 +167,6 @@
 		7870471914EFA2BC00510373 /* NSPersistentStore+ActiveResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPersistentStore+ActiveResource.m"; sourceTree = "<group>"; };
 		7870D53814CDFED800934195 /* ARMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARMacros.h; sourceTree = "<group>"; };
 		7879809A14D1704900825C1E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		7885072E177DB032004160B2 /* ActiveSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ActiveSupport.framework; path = "../../../Library/Developer/Xcode/DerivedData/ActiveResourceKit-bxurkuaganafdwbcgdblogqdenlt/Build/Products/Debug/ActiveSupport.framework"; sourceTree = "<group>"; };
 		788A85451750D8010096D8DF /* EncodeTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncodeTests.h; sourceTree = "<group>"; };
 		788A85461750D8010096D8DF /* EncodeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncodeTests.m; sourceTree = "<group>"; };
 		78AC69E217424480004195E0 /* DynamicTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicTests.h; sourceTree = "<group>"; };
@@ -199,51 +192,41 @@
 		78F7972414CC3D01007A1262 /* ConnectionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionTests.m; sourceTree = "<group>"; };
 		78F7972D14CC48E8007A1262 /* ARConnection+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ARConnection+Private.h"; sourceTree = "<group>"; };
 		78F7972E14CC48E8007A1262 /* ARConnection+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ARConnection+Private.m"; sourceTree = "<group>"; };
+		78F858B4177DB5A800766C29 /* ActiveResourceTests.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ActiveResourceTests.xcdatamodel; sourceTree = "<group>"; };
 		78FB0D84141A1820007AFB3D /* ARErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARErrors.h; sourceTree = "<group>"; };
 		78FB0D85141A1820007AFB3D /* ARErrors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARErrors.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7846AA10140BAAE100FE58E5 /* Frameworks */ = {
+		7813AA971419270400523ECD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7885072F177DB032004160B2 /* ActiveSupport.framework in Frameworks */,
-				78245ACB177D95F1008C8855 /* ActiveModel.framework in Frameworks */,
-				7879809B14D1704900825C1E /* CoreData.framework in Frameworks */,
-				78BF7F5A14164E3500DB0DEA /* Foundation.framework in Frameworks */,
+				7885073E177DB450004160B2 /* libActiveModel.a in Frameworks */,
+				7813AA9B1419270400523ECD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7846AA28140BAAE100FE58E5 /* Frameworks */ = {
+		7813AAA31419270400523ECD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78245ACC177D9615008C8855 /* ActiveResource.framework in Frameworks */,
-				784BA1A2152C978600D4DD97 /* CoreData.framework in Frameworks */,
-				78BF7F7214164FE100DB0DEA /* Foundation.framework in Frameworks */,
-				78BF7F731416512200DB0DEA /* SenTestingKit.framework in Frameworks */,
+				78805F1A1445ACB100703E80 /* libActiveResource.a in Frameworks */,
+				7813AAA81419270400523ECD /* SenTestingKit.framework in Frameworks */,
+				7813AAAB1419270400523ECD /* Foundation.framework in Frameworks */,
+				78F858B7177DB63800766C29 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		78245AC1177D9556008C8855 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				78245AC6177D9556008C8855 /* ActiveModel.framework */,
-				78245AC8177D9556008C8855 /* ActiveModelTests.octest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		7846AA08140BAAE100FE58E5 = {
 			isa = PBXGroup;
 			children = (
-				78326FBB140FE38A00ECCE7D /* ActiveModelKit.xcodeproj */,
+				78326FBB140FE38A00ECCE7D /* ActiveModelLib.xcodeproj */,
 				7846AA1D140BAAE100FE58E5 /* ActiveResource */,
-				7846AA33140BAAE100FE58E5 /* ActiveResourceTests */,
+				7846AA33140BAAE100FE58E5 /* ActiveResourceKitTests */,
 				7846AA16140BAAE100FE58E5 /* Frameworks */,
 				7846AA15140BAAE100FE58E5 /* Products */,
 			);
@@ -252,8 +235,8 @@
 		7846AA15140BAAE100FE58E5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7846AA14140BAAE100FE58E5 /* ActiveResource.framework */,
-				7846AA2C140BAAE100FE58E5 /* ActiveResourceTests.octest */,
+				7813AA9A1419270400523ECD /* libActiveResource.a */,
+				7813AAA71419270400523ECD /* ActiveResourceTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -261,7 +244,6 @@
 		7846AA16140BAAE100FE58E5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7885072E177DB032004160B2 /* ActiveSupport.framework */,
 				7879809A14D1704900825C1E /* CoreData.framework */,
 				7846AA1C140BAAE100FE58E5 /* Foundation.framework */,
 				7846AA2D140BAAE100FE58E5 /* SenTestingKit.framework */,
@@ -344,12 +326,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7846AA33140BAAE100FE58E5 /* ActiveResourceTests */ = {
+		7846AA33140BAAE100FE58E5 /* ActiveResourceKitTests */ = {
 			isa = PBXGroup;
 			children = (
 				7846AA39140BAAE100FE58E5 /* ActiveResourceTests.h */,
 				7846AA3B140BAAE100FE58E5 /* ActiveResourceTests.m */,
-				784BA19E152C8E1800D4DD97 /* ActiveResourceTests.xcdatamodeld */,
+				78F858B3177DB5A800766C29 /* ActiveResourceTests.xcdatamodeld */,
 				78054AFB14694531007E947E /* VersioningTests.h */,
 				78054AFC14694531007E947E /* VersioningTests.m */,
 				7865AE65152C4738008F96CC /* IncrementalStoreTests.h */,
@@ -375,6 +357,7 @@
 				78054AF81469299E007E947E /* Private.h */,
 				7846AA34140BAAE100FE58E5 /* Supporting Files */,
 			);
+			name = ActiveResourceKitTests;
 			path = ActiveResourceTests;
 			sourceTree = "<group>";
 		};
@@ -387,81 +370,89 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		78850734177DB439004160B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78850739177DB439004160B2 /* libActiveModel.a */,
+				7885073B177DB439004160B2 /* ActiveModelTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7846AA11140BAAE100FE58E5 /* Headers */ = {
+		7813AA981419270400523ECD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78D3D6F3140BC3B800DD4278 /* ARService.h in Headers */,
-				78D3D6FB140BC5A100DD4278 /* ActiveResource.h in Headers */,
-				7832702F14110B7B00ECCE7D /* ARFormat.h in Headers */,
-				7832703214110BAE00ECCE7D /* ARJSONFormat.h in Headers */,
-				7835BC8F1414C47900CC4B56 /* Versioning.h in Headers */,
-				78FB0D86141A1820007AFB3D /* ARErrors.h in Headers */,
-				78444FFD142896330014B4C6 /* ARFormatMethods.h in Headers */,
-				784450091428CE250014B4C6 /* ARResource.h in Headers */,
-				784450151428EFCB0014B4C6 /* ARService+Private.h in Headers */,
-				78E4DFEB145B1BF700AB4BCB /* ARResource+Private.h in Headers */,
-				78EEA80114CB7CEC0049AE28 /* ARConnection.h in Headers */,
-				78B95F8214CC6B6D00EEF206 /* ARHTTPMethods.h in Headers */,
-				7870D53A14CDFED800934195 /* ARMacros.h in Headers */,
-				7834B5DD14D167C90062BB04 /* ARIncrementalStore.h in Headers */,
-				786D637514DC568900FCEFA7 /* ARURLConnectionDelegate.h in Headers */,
-				780D959D14E1264F005689CA /* ARQueuedLoadingURLConnection.h in Headers */,
-				78D9884114E9378E0081C350 /* ARHTTPResponse.h in Headers */,
-				780D95A714E12D74005689CA /* ARSynchronousLoadingURLConnection.h in Headers */,
-				780D95B114E1D178005689CA /* ARURLConnection.h in Headers */,
-				78B58E9C1526082100956BB9 /* NSHTTPURLResponse+ActiveResource.h in Headers */,
-				7870471A14EFA2BC00510373 /* NSPersistentStore+ActiveResource.h in Headers */,
-				780C11FD14F06D1C007960CF /* NSManagedObject+ActiveResource.h in Headers */,
-				78404E6814F17FB1005986CB /* NSEntityDescription+ActiveResource.h in Headers */,
-				78E02B10152AE884008E6EC1 /* ARIncrementalStore+Private.h in Headers */,
-				78E02B16152B06FC008E6EC1 /* NSAttributeDescription+ActiveResource.h in Headers */,
-				78F7972F14CC48E8007A1262 /* ARConnection+Private.h in Headers */,
+				78440D76141928B000EFBB93 /* ActiveResource.h in Headers */,
+				78440D77141928B000EFBB93 /* ARService.h in Headers */,
+				78440D78141928B000EFBB93 /* ARFormat.h in Headers */,
+				78440D79141928B000EFBB93 /* ARJSONFormat.h in Headers */,
+				78440D7A141928B000EFBB93 /* Versioning.h in Headers */,
+				78FB0D87141A1820007AFB3D /* ARErrors.h in Headers */,
+				78444FFE142896330014B4C6 /* ARFormatMethods.h in Headers */,
+				7844500A1428CE250014B4C6 /* ARResource.h in Headers */,
+				784450161428EFCB0014B4C6 /* ARService+Private.h in Headers */,
+				78E4DFEC145B1BF700AB4BCB /* ARResource+Private.h in Headers */,
+				78EEA80214CB7CEC0049AE28 /* ARConnection.h in Headers */,
+				78F7973014CC48E8007A1262 /* ARConnection+Private.h in Headers */,
+				78B95F8314CC6B6D00EEF206 /* ARHTTPMethods.h in Headers */,
+				7870D53B14CDFED800934195 /* ARMacros.h in Headers */,
+				7834B5DE14D167C90062BB04 /* ARIncrementalStore.h in Headers */,
+				786D637614DC568900FCEFA7 /* ARURLConnectionDelegate.h in Headers */,
+				780D959E14E1264F005689CA /* ARQueuedLoadingURLConnection.h in Headers */,
+				780D95A814E12D74005689CA /* ARSynchronousLoadingURLConnection.h in Headers */,
+				780D95B214E1D178005689CA /* ARURLConnection.h in Headers */,
+				78D9884214E9378E0081C350 /* ARHTTPResponse.h in Headers */,
+				7870471B14EFA2BC00510373 /* NSPersistentStore+ActiveResource.h in Headers */,
+				780C11FE14F06D1C007960CF /* NSManagedObject+ActiveResource.h in Headers */,
+				78404E6914F17FB1005986CB /* NSEntityDescription+ActiveResource.h in Headers */,
+				78B58E9D1526082100956BB9 /* NSHTTPURLResponse+ActiveResource.h in Headers */,
+				78E02B11152AE884008E6EC1 /* ARIncrementalStore+Private.h in Headers */,
+				78E02B17152B06FC008E6EC1 /* NSAttributeDescription+ActiveResource.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7846AA13140BAAE100FE58E5 /* ActiveResource */ = {
+		7813AA991419270400523ECD /* ActiveResource */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7846AA3F140BAAE100FE58E5 /* Build configuration list for PBXNativeTarget "ActiveResource" */;
+			buildConfigurationList = 7813AAB81419270400523ECD /* Build configuration list for PBXNativeTarget "ActiveResource" */;
 			buildPhases = (
-				7846AA0F140BAAE100FE58E5 /* Sources */,
-				7846AA10140BAAE100FE58E5 /* Frameworks */,
-				7846AA11140BAAE100FE58E5 /* Headers */,
-				7846AA12140BAAE100FE58E5 /* Resources */,
+				7813AA961419270400523ECD /* Sources */,
+				7813AA971419270400523ECD /* Frameworks */,
+				7813AA981419270400523ECD /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				78245ACA177D95E6008C8855 /* PBXTargetDependency */,
+				7885073D177DB448004160B2 /* PBXTargetDependency */,
 			);
 			name = ActiveResource;
-			productName = ActiveResourceKit;
-			productReference = 7846AA14140BAAE100FE58E5 /* ActiveResource.framework */;
-			productType = "com.apple.product-type.framework";
+			productName = ActiveResourceKitLibrary;
+			productReference = 7813AA9A1419270400523ECD /* libActiveResource.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		7846AA2B140BAAE100FE58E5 /* ActiveResourceTests */ = {
+		7813AAA61419270400523ECD /* ActiveResourceTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7846AA42140BAAE100FE58E5 /* Build configuration list for PBXNativeTarget "ActiveResourceTests" */;
+			buildConfigurationList = 7813AABB1419270400523ECD /* Build configuration list for PBXNativeTarget "ActiveResourceTests" */;
 			buildPhases = (
-				7846AA27140BAAE100FE58E5 /* Sources */,
-				7846AA28140BAAE100FE58E5 /* Frameworks */,
-				7846AA29140BAAE100FE58E5 /* Resources */,
-				7846AA2A140BAAE100FE58E5 /* ShellScript */,
+				7813AAA21419270400523ECD /* Sources */,
+				7813AAA31419270400523ECD /* Frameworks */,
+				7813AAA41419270400523ECD /* Resources */,
+				7813AAA51419270400523ECD /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				78245ACE177D96C5008C8855 /* PBXTargetDependency */,
+				7813AAAD1419270400523ECD /* PBXTargetDependency */,
 			);
 			name = ActiveResourceTests;
-			productName = ActiveResourceKitTests;
-			productReference = 7846AA2C140BAAE100FE58E5 /* ActiveResourceTests.octest */;
+			productName = ActiveResourceKitLibraryTests;
+			productReference = 7813AAA71419270400523ECD /* ActiveResourceTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -473,7 +464,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Pioneering Software, United Kingdom";
 			};
-			buildConfigurationList = 7846AA0D140BAAE100FE58E5 /* Build configuration list for PBXProject "ActiveResourceKit" */;
+			buildConfigurationList = 7846AA0D140BAAE100FE58E5 /* Build configuration list for PBXProject "ActiveResourceLib" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -485,57 +476,47 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 78245AC1177D9556008C8855 /* Products */;
-					ProjectRef = 78326FBB140FE38A00ECCE7D /* ActiveModelKit.xcodeproj */;
+					ProductGroup = 78850734177DB439004160B2 /* Products */;
+					ProjectRef = 78326FBB140FE38A00ECCE7D /* ActiveModelLib.xcodeproj */;
 				},
 			);
 			projectRoot = "";
 			targets = (
-				7846AA13140BAAE100FE58E5 /* ActiveResource */,
-				7846AA2B140BAAE100FE58E5 /* ActiveResourceTests */,
+				7813AA991419270400523ECD /* ActiveResource */,
+				7813AAA61419270400523ECD /* ActiveResourceTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		78245AC6177D9556008C8855 /* ActiveModel.framework */ = {
+		78850739177DB439004160B2 /* libActiveModel.a */ = {
 			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ActiveModel.framework;
-			remoteRef = 78245AC5177D9556008C8855 /* PBXContainerItemProxy */;
+			fileType = archive.ar;
+			path = libActiveModel.a;
+			remoteRef = 78850738177DB439004160B2 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		78245AC8177D9556008C8855 /* ActiveModelTests.octest */ = {
+		7885073B177DB439004160B2 /* ActiveModelTests.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = ActiveModelTests.octest;
-			remoteRef = 78245AC7177D9556008C8855 /* PBXContainerItemProxy */;
+			remoteRef = 7885073A177DB439004160B2 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7846AA12140BAAE100FE58E5 /* Resources */ = {
+		7813AAA41419270400523ECD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7846AA22140BAAE100FE58E5 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7846AA29140BAAE100FE58E5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7846AA38140BAAE100FE58E5 /* InfoPlist.strings in Resources */,
-				7846AA3A140BAAE100FE58E5 /* ActiveResourceTests.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7846AA2A140BAAE100FE58E5 /* ShellScript */ = {
+		7813AAA51419270400523ECD /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -551,68 +532,68 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7846AA0F140BAAE100FE58E5 /* Sources */ = {
+		7813AA961419270400523ECD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78D3D6F4140BC3B800DD4278 /* ARService.m in Sources */,
-				7832703314110BAE00ECCE7D /* ARJSONFormat.m in Sources */,
-				7835BC901414C47900CC4B56 /* Versioning.m in Sources */,
-				78FB0D88141A1820007AFB3D /* ARErrors.m in Sources */,
-				78444FFF142896330014B4C6 /* ARFormatMethods.m in Sources */,
-				7844500B1428CE250014B4C6 /* ARResource.m in Sources */,
-				784450171428EFCB0014B4C6 /* ARService+Private.m in Sources */,
-				78E4DFED145B1BF700AB4BCB /* ARResource+Private.m in Sources */,
-				78EEA80314CB7CEC0049AE28 /* ARConnection.m in Sources */,
-				78F7973114CC48E8007A1262 /* ARConnection+Private.m in Sources */,
-				78B95F8414CC6B6D00EEF206 /* ARHTTPMethods.m in Sources */,
-				7834B5DF14D167C90062BB04 /* ARIncrementalStore.m in Sources */,
-				786D637714DC568900FCEFA7 /* ARURLConnectionDelegate.m in Sources */,
-				780D959F14E1264F005689CA /* ARQueuedLoadingURLConnection.m in Sources */,
-				780D95A914E12D74005689CA /* ARSynchronousLoadingURLConnection.m in Sources */,
-				780D95B314E1D178005689CA /* ARURLConnection.m in Sources */,
-				78D9884314E9378E0081C350 /* ARHTTPResponse.m in Sources */,
-				7870471C14EFA2BC00510373 /* NSPersistentStore+ActiveResource.m in Sources */,
-				780C11FF14F06D1C007960CF /* NSManagedObject+ActiveResource.m in Sources */,
-				78404E6A14F17FB1005986CB /* NSEntityDescription+ActiveResource.m in Sources */,
-				78B58E9E1526082100956BB9 /* NSHTTPURLResponse+ActiveResource.m in Sources */,
-				78E02B12152AE884008E6EC1 /* ARIncrementalStore+Private.m in Sources */,
-				78E02B18152B06FC008E6EC1 /* NSAttributeDescription+ActiveResource.m in Sources */,
+				78440D7B141928D100EFBB93 /* ARService.m in Sources */,
+				78440D7C141928D100EFBB93 /* ARJSONFormat.m in Sources */,
+				78440D7D141928D100EFBB93 /* Versioning.m in Sources */,
+				78FB0D89141A1820007AFB3D /* ARErrors.m in Sources */,
+				78445000142896330014B4C6 /* ARFormatMethods.m in Sources */,
+				7844500C1428CE250014B4C6 /* ARResource.m in Sources */,
+				784450181428EFCB0014B4C6 /* ARService+Private.m in Sources */,
+				78E4DFEE145B1BF700AB4BCB /* ARResource+Private.m in Sources */,
+				78EEA80414CB7CEC0049AE28 /* ARConnection.m in Sources */,
+				78F7973214CC48E8007A1262 /* ARConnection+Private.m in Sources */,
+				78B95F8514CC6B6D00EEF206 /* ARHTTPMethods.m in Sources */,
+				7834B5E014D167C90062BB04 /* ARIncrementalStore.m in Sources */,
+				786D637814DC568900FCEFA7 /* ARURLConnectionDelegate.m in Sources */,
+				780D95A014E1264F005689CA /* ARQueuedLoadingURLConnection.m in Sources */,
+				780D95AA14E12D74005689CA /* ARSynchronousLoadingURLConnection.m in Sources */,
+				780D95B414E1D178005689CA /* ARURLConnection.m in Sources */,
+				78D9884414E9378E0081C350 /* ARHTTPResponse.m in Sources */,
+				7870471D14EFA2BC00510373 /* NSPersistentStore+ActiveResource.m in Sources */,
+				780C120014F06D1C007960CF /* NSManagedObject+ActiveResource.m in Sources */,
+				78404E6B14F17FB1005986CB /* NSEntityDescription+ActiveResource.m in Sources */,
+				78B58E9F1526082100956BB9 /* NSHTTPURLResponse+ActiveResource.m in Sources */,
+				78E02B13152AE884008E6EC1 /* ARIncrementalStore+Private.m in Sources */,
+				78E02B19152B06FC008E6EC1 /* NSAttributeDescription+ActiveResource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7846AA27140BAAE100FE58E5 /* Sources */ = {
+		7813AAA21419270400523ECD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78282278146869A3005D9BD2 /* FinderTests.m in Sources */,
-				7828228014686A2E005D9BD2 /* Person.m in Sources */,
-				7828228414686DFD005D9BD2 /* ARTestCase.m in Sources */,
-				78054AF914692ABC007E947E /* ActiveResourceTests.m in Sources */,
-				78054AFD14694531007E947E /* VersioningTests.m in Sources */,
-				78F7972514CC3D01007A1262 /* ConnectionTests.m in Sources */,
-				786D637214DC391100FCEFA7 /* KeyValueCodingTests.m in Sources */,
-				780D95AD14E173B5005689CA /* BaseTests.m in Sources */,
-				7865AE67152C4738008F96CC /* IncrementalStoreTests.m in Sources */,
-				784BA1A0152C8E1800D4DD97 /* ActiveResourceTests.xcdatamodeld in Sources */,
-				78AC69E417424480004195E0 /* DynamicTests.m in Sources */,
-				7851F5E9174B837A000EE84D /* KeyValueObservingTests.m in Sources */,
-				788A85471750D8010096D8DF /* EncodeTests.m in Sources */,
+				78282279146869A4005D9BD2 /* FinderTests.m in Sources */,
+				7828228114686A2E005D9BD2 /* Person.m in Sources */,
+				7828228514686DFD005D9BD2 /* ARTestCase.m in Sources */,
+				78054AFA14692ABD007E947E /* ActiveResourceTests.m in Sources */,
+				78054AFE14694531007E947E /* VersioningTests.m in Sources */,
+				78F7972614CC3D01007A1262 /* ConnectionTests.m in Sources */,
+				786D637114DC391000FCEFA7 /* KeyValueCodingTests.m in Sources */,
+				780D95AE14E173B5005689CA /* BaseTests.m in Sources */,
+				7865AE68152C4738008F96CC /* IncrementalStoreTests.m in Sources */,
+				78AC69E517424480004195E0 /* DynamicTests.m in Sources */,
+				7851F5EA174B837A000EE84D /* KeyValueObservingTests.m in Sources */,
+				788A85481750D8010096D8DF /* EncodeTests.m in Sources */,
+				78F858B5177DB5A800766C29 /* ActiveResourceTests.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		78245ACA177D95E6008C8855 /* PBXTargetDependency */ = {
+		7813AAAD1419270400523ECD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7813AA991419270400523ECD /* ActiveResource */;
+			targetProxy = 7813AAAC1419270400523ECD /* PBXContainerItemProxy */;
+		};
+		7885073D177DB448004160B2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ActiveModel;
-			targetProxy = 78245AC9177D95E6008C8855 /* PBXContainerItemProxy */;
-		};
-		78245ACE177D96C5008C8855 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7846AA13140BAAE100FE58E5 /* ActiveResource */;
-			targetProxy = 78245ACD177D96C5008C8855 /* PBXContainerItemProxy */;
+			targetProxy = 7885073C177DB448004160B2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -636,6 +617,94 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		7813AAB91419270400523ECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/ActiveResourceLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ActiveResource/ActiveResource-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(DSTROOT)/include";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "/include/$(PRODUCT_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7813AABA1419270400523ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/ActiveResourceLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ActiveResource/ActiveResource-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(DSTROOT)/include";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "/include/$(PRODUCT_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7813AABC1419270400523ECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ActiveResource/ActiveResource-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = (
+					"RAILS_BASE_URL=\"\\\"$(RAILS_BASE_URL)\\\"\"",
+					"PROJECT_NAME_STRING=\"\\\"$(PROJECT_NAME)\\\"\"",
+					"CURRENT_PROJECT_VERSION_STRING=\"\\\"$(CURRENT_PROJECT_VERSION)\\\"\"",
+					"CURRENT_PROJECT_VERSION=$(CURRENT_PROJECT_VERSION)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ActiveResourceTests/ActiveResourceTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7813AABD1419270400523ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ActiveResource/ActiveResource-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = (
+					"RAILS_BASE_URL=\"\\\"$(RAILS_BASE_URL)\\\"\"",
+					"PROJECT_NAME_STRING=\"\\\"$(PROJECT_NAME)\\\"\"",
+					"CURRENT_PROJECT_VERSION_STRING=\"\\\"$(CURRENT_PROJECT_VERSION)\\\"\"",
+					"CURRENT_PROJECT_VERSION=$(CURRENT_PROJECT_VERSION)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ActiveResourceTests/ActiveResourceTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 		7846AA3D140BAAE100FE58E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -701,92 +770,28 @@
 			};
 			name = Release;
 		};
-		7846AA40140BAAE100FE58E5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 588.8;
-				DYLIB_INSTALL_NAME_BASE = "@executable_path/../Frameworks/ObjectiveRails.framework/Versions/Current/Frameworks";
-				FRAMEWORK_VERSION = A;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ActiveResource/ActiveResource-Prefix.pch";
-				INFOPLIST_FILE = "ActiveResource/ActiveResource-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = framework;
-			};
-			name = Debug;
-		};
-		7846AA41140BAAE100FE58E5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 588.8;
-				DYLIB_INSTALL_NAME_BASE = "@executable_path/../Frameworks/ObjectiveRails.framework/Versions/Current/Frameworks";
-				FRAMEWORK_VERSION = A;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ActiveResource/ActiveResource-Prefix.pch";
-				INFOPLIST_FILE = "ActiveResource/ActiveResource-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = framework;
-			};
-			name = Release;
-		};
-		7846AA43140BAAE100FE58E5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ActiveResource/ActiveResource-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = (
-					"RAILS_BASE_URL=\"\\\"$(RAILS_BASE_URL)\\\"\"",
-					"PROJECT_NAME_STRING=\"\\\"$(PROJECT_NAME)\\\"\"",
-					"CURRENT_PROJECT_VERSION_STRING=\"\\\"$(CURRENT_PROJECT_VERSION)\\\"\"",
-					"CURRENT_PROJECT_VERSION=$(CURRENT_PROJECT_VERSION)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "ActiveResourceTests/ActiveResourceTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		7846AA44140BAAE100FE58E5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ActiveResource/ActiveResource-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = (
-					"RAILS_BASE_URL=\"\\\"$(RAILS_BASE_URL)\\\"\"",
-					"PROJECT_NAME_STRING=\"\\\"$(PROJECT_NAME)\\\"\"",
-					"CURRENT_PROJECT_VERSION_STRING=\"\\\"$(CURRENT_PROJECT_VERSION)\\\"\"",
-					"CURRENT_PROJECT_VERSION=$(CURRENT_PROJECT_VERSION)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "ActiveResourceTests/ActiveResourceTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7846AA0D140BAAE100FE58E5 /* Build configuration list for PBXProject "ActiveResourceKit" */ = {
+		7813AAB81419270400523ECD /* Build configuration list for PBXNativeTarget "ActiveResource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7813AAB91419270400523ECD /* Debug */,
+				7813AABA1419270400523ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7813AABB1419270400523ECD /* Build configuration list for PBXNativeTarget "ActiveResourceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7813AABC1419270400523ECD /* Debug */,
+				7813AABD1419270400523ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7846AA0D140BAAE100FE58E5 /* Build configuration list for PBXProject "ActiveResourceLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7846AA3D140BAAE100FE58E5 /* Debug */,
@@ -795,33 +800,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7846AA3F140BAAE100FE58E5 /* Build configuration list for PBXNativeTarget "ActiveResource" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7846AA40140BAAE100FE58E5 /* Debug */,
-				7846AA41140BAAE100FE58E5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7846AA42140BAAE100FE58E5 /* Build configuration list for PBXNativeTarget "ActiveResourceTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7846AA43140BAAE100FE58E5 /* Debug */,
-				7846AA44140BAAE100FE58E5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		784BA19E152C8E1800D4DD97 /* ActiveResourceTests.xcdatamodeld */ = {
+		78F858B3177DB5A800766C29 /* ActiveResourceTests.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				784BA19F152C8E1800D4DD97 /* ActiveResourceTests.xcdatamodel */,
+				78F858B4177DB5A800766C29 /* ActiveResourceTests.xcdatamodel */,
 			);
-			currentVersion = 784BA19F152C8E1800D4DD97 /* ActiveResourceTests.xcdatamodel */;
+			currentVersion = 78F858B4177DB5A800766C29 /* ActiveResourceTests.xcdatamodel */;
 			path = ActiveResourceTests.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
