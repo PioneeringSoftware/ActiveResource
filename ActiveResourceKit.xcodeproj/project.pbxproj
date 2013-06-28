@@ -199,6 +199,7 @@
 		78F7972414CC3D01007A1262 /* ConnectionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionTests.m; sourceTree = "<group>"; };
 		78F7972D14CC48E8007A1262 /* ARConnection+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ARConnection+Private.h"; sourceTree = "<group>"; };
 		78F7972E14CC48E8007A1262 /* ARConnection+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ARConnection+Private.m"; sourceTree = "<group>"; };
+		78F858C2177DC8A700766C29 /* ActiveResource.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ActiveResource.xcconfig; sourceTree = "<group>"; };
 		78FB0D84141A1820007AFB3D /* ARErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARErrors.h; sourceTree = "<group>"; };
 		78FB0D85141A1820007AFB3D /* ARErrors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARErrors.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -340,6 +341,7 @@
 				7846AA1F140BAAE100FE58E5 /* ActiveResource-Info.plist */,
 				7846AA20140BAAE100FE58E5 /* InfoPlist.strings */,
 				7846AA23140BAAE100FE58E5 /* ActiveResource-Prefix.pch */,
+				78F858C2177DC8A700766C29 /* ActiveResource.xcconfig */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -638,6 +640,7 @@
 /* Begin XCBuildConfiguration section */
 		7846AA3D140BAAE100FE58E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78F858C2177DC8A700766C29 /* ActiveResource.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -646,7 +649,6 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 588.8;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -667,13 +669,12 @@
 				RAILS_BASE_URL = "http://active-resource-kit-tests.herokuapp.com/";
 				RAILS_ENV = development;
 				SDKROOT = macosx;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = k;
 			};
 			name = Debug;
 		};
 		7846AA3E140BAAE100FE58E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78F858C2177DC8A700766C29 /* ActiveResource.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -682,7 +683,6 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
-				CURRENT_PROJECT_VERSION = 588.8;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -696,8 +696,6 @@
 				RAILS_BASE_URL = "http://active-resource-kit-tests.herokuapp.com/";
 				RAILS_ENV = development;
 				SDKROOT = macosx;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = k;
 			};
 			name = Release;
 		};
