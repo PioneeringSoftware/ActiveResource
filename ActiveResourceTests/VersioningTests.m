@@ -32,7 +32,7 @@
 #pragma mark -                                                  Versioning Tests
 //------------------------------------------------------------------------------
 
-#define PROGRAM_NAME_STRING PROJECT_NAME_STRING
+#define PROGRAM_NAME_STRING "ActiveResource"
 #define AT_HASH "@(#)PROGRAM:" PROGRAM_NAME_STRING "  PROJECT:" PROJECT_NAME_STRING "-"
 
 - (void)testVersionString
