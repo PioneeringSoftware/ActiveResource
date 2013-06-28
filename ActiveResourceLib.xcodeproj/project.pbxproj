@@ -709,6 +709,7 @@
 		};
 		7846AA3D140BAAE100FE58E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78F858C4177DC8C500766C29 /* ActiveResource.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -742,6 +743,7 @@
 		};
 		7846AA3E140BAAE100FE58E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78F858C4177DC8C500766C29 /* ActiveResource.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
