@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
+   <FileRef
+      location = "group:Rakefile">
+   </FileRef>
+   <FileRef
+      location = "group:MIT-LICENSE.txt">
+   </FileRef>
+   <FileRef
+      location = "group:Gemfile.lock">
+   </FileRef>
+   <FileRef
+      location = "group:Gemfile">
+   </FileRef>
+   <FileRef
+      location = "group:Doxyfile">
+   </FileRef>
+   <FileRef
+      location = "group:AppledocSettings.plist">
+   </FileRef>
+   <FileRef
+      location = "group:Documents/Class_Diagram__Service_and_Resource.png">
+   </FileRef>
+   <FileRef
+      location = "group:Documents/Class_Diagram__Connections.png">
+   </FileRef>
+   <FileRef
+      location = "group:Documents/Class_Diagram__Caching.png">
+   </FileRef>
+   <FileRef
+      location = "group:Versioning.xcconfig">
+   </FileRef>
+   <FileRef
+      location = "group:ActiveResourceLib.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ActiveResourceKit.xcodeproj">
+   </FileRef>
+</Workspace>
