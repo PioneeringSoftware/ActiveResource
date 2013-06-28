@@ -22,7 +22,7 @@
 //
 //------------------------------------------------------------------------------
 
-CURRENT_MARKETING_VERSION = 1.11
+CURRENT_MARKETING_VERSION = 1.11.1
 CURRENT_PROJECT_VERSION = 588.8
 VERSION_INFO_PREFIX = k
 VERSIONING_SYSTEM = apple-generic
