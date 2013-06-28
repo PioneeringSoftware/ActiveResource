@@ -32,6 +32,9 @@
       location = "group:Documents/Class_Diagram__Caching.png">
    </FileRef>
    <FileRef
+      location = "group:Versioning.xcconfig">
+   </FileRef>
+   <FileRef
       location = "group:ActiveResourceLib.xcodeproj">
    </FileRef>
    <FileRef
